@@ -113,8 +113,8 @@
             <h3 class="text-[50px]"><span class="text-[#E95A08]">Latest</span> Deals</h3>          
             <p class="text-[22px] text-[rgba(0,0,0,0.5)] px-[276px]">Indulge your senses with the beauty and fragrance of our fresh flower shop Now. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>  
         </section>
-        <section class="flex justify-center gap-7 mx-auto mt-[120px]">
-            <div class="flex flex-col justify-between gap-4">
+        <section class="flex flex-col md:flex-row justify-center gap-7 mx-auto mt-[120px]">
+            <div class="flex flex-col justify-between gap-4 mx-auto md:mx-0">
                 <div class="relative flex flex-col justify-center text-center w-[367px] h-[201px]">
                     <img class="absolute inset-0 h-full w-full rounded-[14px] object-cover" src="./assets/deal-bloom.png" alt="">
                     <div class="absolute inset-0 rounded-[14px] bg-[rgba(0,0,0,0.4)]"></div>
@@ -128,7 +128,7 @@
                     <a class="relative text-white underline" href="assignment-2.html">Shop Now</a>
                 </div>
             </div>
-            <div class="relative w-[754px] flex flex-col justify-center">
+            <div class="relative w-[367px] md:w-[754px] flex flex-col justify-center mx-auto md:mx-0 ">
                 <img class="absolute inset-0 h-full w-full object-cover rounded-[22px]" src="./assets/deal-zabo.png" alt="">
                 <div class="absolute inset-0 rounded-[22px] bg-[rgba(0,0,0,0.4)]"></div>
                 <div class="relative flex flex-col justify-center text-center">
@@ -138,5 +138,17 @@
             </div>
         </section>
     </main>
+    <footer>
+        <section class="relative w-[500px] gap-5 md:w-full h-[533px] flex flex-col justify-center items-center mx-auto mt-[120px]">
+            <img class="absolute inset-0 w-full h-full object-cover" src="./assets/news-letter-bg.png" alt="">
+            <div class="absolute inset-0 bg-[rgba(7,51,79,0.4)]"></div>
+            <h3 class="relative text-white text-[30px] md:text-[50px] font-bold">Join the colorful Bunch</h3>
+
+            <div class="flex">
+                <input class="relative bg-white w-[150px] md:w-full md:pr-[550px] pl-[20px] py-[18px]" type="email" name="" id="" placeholder="Write email">
+                <input class="relative text-white py-[19px] px-[30px] md:px-[54px] bg-[#E95A08]" type="button" value="Subscribe">
+            </div>
+        </section>
+    </footer>
 </body>
 </html>
